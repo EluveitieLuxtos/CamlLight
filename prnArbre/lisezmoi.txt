@@ -1,0 +1,27 @@
+Bibliothèque d'affichage semi-graphique des arbres pour Caml-Light
+------------------------------------------------------------------
+
+Auteur de la bibliothèque initiale : Michel Quercia
+La  bibliothèque a été légèrement  modifiée pour  fonctionner  plus aisément
+avec les types arbres utilisés à Thiers.
+
+Installation:
+------------
+
+Extraire  les  fichiers  de  l'archive  en   préservant   la  structure  des
+répertoires.
+
+Utilisation:
+-----------
+
+Tant que l'on n'utilise que des arbres de l'un des 4 types suivants:
+
+int arbrebinaire,
+string arbrebinaire,
+int arbre,
+string arbre,
+
+il n'y a pas de problème: voir par exemple le fichier test1.ml.
+
+Si l'on utilise  d'autres  arbres, il faut écrire une fonction de conversion
+vers l'un des 4 types précédents: voir test2.ml.
